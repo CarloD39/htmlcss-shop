@@ -7,7 +7,7 @@
 .container{
     width: 750px;
     margin: 0 auto;
-    background-color: cadetblue;    
+    /* background-color: cadetblue;    */
 }
 
 /*------- utility---- utility INIZIO utility----- utility-------- */
@@ -18,17 +18,109 @@
     clear: both;
 }
 
+.zalando{
+    height: 320px;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+
+.fl.right{
+    padding-right: 5px;
+}
+
+.fl.both{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.fl.left{
+    padding-left: 5px;
+}
+
+.det{
+    font-size: 12px;
+    color: white;
+    padding: 3px;
+}
+
 /*------- utility---- utility FINE utility----- utility-------- */
 
 .fl{
     float: left;
     width: 250px;
-    height: 375px;
-    background-color: chocolate;
+    height: 378px;
+    /* background-color: chocolate; */
     border: 1px solid black;
 }
 
+
 .picture-one{
-    background-image: url(../img/1-hover.webp);
-    background-size: cover;
+    background-image: url(../img/1.webp);
 }
+
+.zalando.picture-one:hover{
+    background-image: url(../img/1-hover.webp);
+}
+
+.picture-two{
+    background-image: url(../img/2.webp);
+}
+
+.zalando.picture-two:hover{
+    background-image: url(../img/2-hover.webp);
+}
+
+.picture-three{
+    background-image: url(../img/3.webp);
+}
+
+.zalando.picture-three:hover{
+    background-image: url(../img/3-hover.webp);
+}
+
+
+/* ------------------------------- */
+.details{
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+}
+
+.discount{
+    background:rgb(241, 56, 56);
+}
+
+.impact{
+    background:rgb(26, 133, 26);
+}
+
+.brand-price{
+    font-size: 14px;
+}
+
+.brand-price span:last-child{
+    color: rgb(241, 56, 56);
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#heart{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    background: white;
+    font-size: 24px;
+    padding: 0 5px;
+}
+
+.product-quote>span{
+    background: green;
+
+}
+
+/* ----------------------------------- */
+
+
+
