@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 750px;
+    margin: 0 auto;
+    background-color: cadetblue;    
+}
+
+/*------- utility---- utility INIZIO utility----- utility-------- */
+
+.row-clearfix::after{
+    content: "";     
+    display: table;
+    clear: both;
+}
+
+/*------- utility---- utility FINE utility----- utility-------- */
+
+.fl{
+    float: left;
+    width: 250px;
+    height: 375px;
+    background-color: chocolate;
+    border: 1px solid black;
+}
+
+.picture-one{
+    background-image: url(../img/1-hover.webp);
+    background-size: cover;
+}
