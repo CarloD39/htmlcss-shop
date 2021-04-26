@@ -7,7 +7,6 @@
 .container{
     width: 750px;
     margin: 0 auto;
-    /* background-color: cadetblue;    */
 }
 
 /*------- utility---- utility INIZIO utility----- utility-------- */
@@ -18,11 +17,21 @@
     clear: both;
 }
 
+.row-clearfix.first{
+    margin-bottom: 30px;
+}
+
 .zalando{
     height: 320px;
     background-size: cover;
     background-position: top;
     position: relative;
+}
+
+.fl{
+    float: left;
+    width: 250px;
+    height: 378px;
 }
 
 
@@ -47,14 +56,6 @@
 
 /*------- utility---- utility FINE utility----- utility-------- */
 
-.fl{
-    float: left;
-    width: 250px;
-    height: 378px;
-    /* background-color: chocolate; */
-    border: 1px solid black;
-}
-
 
 .picture-one{
     background-image: url(../img/1.webp);
@@ -78,6 +79,30 @@
 
 .zalando.picture-three:hover{
     background-image: url(../img/3-hover.webp);
+}
+
+.zalando.picture-four{
+    background-image: url(../img/4.webp);
+}
+
+.zalando.picture-four:hover{
+    background-image: url(../img/4-hover.webp);
+}
+
+.zalando.picture-five{
+    background-image: url(../img/5.webp);
+}
+
+.zalando.picture-five:hover{
+    background-image: url(../img/5-hover.webp);
+}
+
+.zalando.picture-six{
+    background-image: url(../img/6.webp);
+}
+
+.zalando.picture-six:hover{
+    background-image: url(../img/6-hover.webp);
 }
 
 
@@ -115,10 +140,12 @@
     padding: 0 5px;
 }
 
-.product-quote>span{
-    background: green;
 
+#product-quote{
+    background: green;
+    padding: 10px 0 10px 10px;
 }
+
 
 /* ----------------------------------- */
 
